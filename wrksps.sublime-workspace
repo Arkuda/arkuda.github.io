@@ -1,0 +1,244 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7664,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/GitForks/arkuda.github.io"
+	],
+	"file_history":
+	[
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/C/Users/reyzo_000/Desktop/Новая папка (2)/SecMes/views/index.ejs",
+		"/D/Google Drive/учёба/Научки/SecMes/SecMes/views/index.ejs",
+		"/C/Users/reyzo_000/Desktop/Научка authorize/Научка authorize/srvr.coffee",
+		"/D/Google Drive/учёба/Научки/SecMes/SecMes/crypto/cryptico.js",
+		"/C/Users/reyzo_000/Desktop/index.html",
+		"/G/GitForks/arkuda.github.io/css/bootstrap.min.css",
+		"/D/Google Drive/учёба/Научки/SecMes/SecMes/node_modules/node-rsa/src/NodeRSA.js",
+		"/G/GitForks/BlueDiamond/htmldist/index.html",
+		"/G/Unity Games/LampAndVampPort/Assets/FieldGen.cs",
+		"/C/Program Files/runphp/runphp.cmd",
+		"/C/Users/reyzo_000/Desktop/metasploit-pro-trial-grabber-master/metasploit-pro-trial-grabber-master/setx.exe",
+		"/C/Users/reyzo_000/.openshift/express.conf",
+		"/C/Users/reyzo_000/Desktop/Новая папка (2)/app.js",
+		"/C/Users/reyzo_000/Desktop/VFSApplication/dist/vfs-configuration.dtd",
+		"/C/Users/reyzo_000/Desktop/Новая папка/launcher^FTB_Launcher.src/net/ftb/workers/LoginWorker.java",
+		"/C/Users/reyzo_000/AppData/Roaming/ftblauncher/ftblaunch.cfg",
+		"/C/Users/reyzo_000/Desktop/img.php",
+		"/G/Game/amra2/game/@DayZ/keys/dayz.bikey",
+		"/C/Users/reyzo_000/Google Диск/Помойка/laba.cpp",
+		"/C/Users/reyzo_000/Google Диск/Keys/arkuda_rsa_1024.pub",
+		"/C/Users/reyzo_000/Google Диск/Keys/public",
+		"/C/Users/reyzo_000/Desktop/gen.php",
+		"/C/Users/reyzo_000/Desktop/default.php",
+		"/D/World_of_Tanks/WoTLauncher.cfg",
+		"/C/Users/reyzo_000/Desktop/index.php",
+		"/C/Users/reyzo_000/Desktop/kontacts.php",
+		"/C/Users/reyzo_000/Desktop/google-cloud-sdk/install.sh",
+		"/C/Users/reyzo_000/Google Диск/учёба/Научки/TimeTrap/Описание - сис авторизации на сайте _TimeTrap_.gdoc",
+		"/I/cursach/kursach.sln"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<script src=\"js/bootstrap.min.js\"></script>",
+			">\n",
+			"/*!",
+			"$image",
+			"$this"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$imageVar",
+			"$image"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "G:\\GitForks\\arkuda.github.io"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7631,
+								7631
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
