@@ -1,18 +1,11 @@
 var app = angular.module('app', []);
 
 
+app.controller('postCtrl', getPosts($scope));
 
 
-app.controller('postCtrl', function ($scope) {
-  $scope.posts = getPosts();
-});
-
-
-
-
-
-function getPosts(){
-	return [
+function getPosts($scope){
+	$scope.posts =  [
     {'title': 'Тестовый пост',
      'author': 'Andrey K.',
  	 'date':'10.09.14 11:48',

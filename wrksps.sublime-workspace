@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getPosts"
+			],
+			[
 				"fu",
 				"function"
 			]
@@ -15,7 +19,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7664,
+				"buffer_size": 6495,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 365,
 				"line_ending": "Windows"
 			}
 		}
@@ -23,17 +35,26 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 472.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -47,7 +68,8 @@
 	},
 	"expanded_folders":
 	[
-		"/G/GitForks/arkuda.github.io"
+		"/G/GitForks/arkuda.github.io",
+		"/G/GitForks/arkuda.github.io/js"
 	],
 	"file_history":
 	[
@@ -129,7 +151,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -138,20 +160,48 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7664,
+						"buffer_size": 6495,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7631,
-								7631
+								2308,
+								2308
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1282.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -236,7 +286,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 291.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
