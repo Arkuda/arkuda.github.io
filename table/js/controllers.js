@@ -106,7 +106,7 @@ angular.module('starter.controllers', [])
 
 ///urls
 //var url_grups = "http://dl.dropboxusercontent.com/u/61847240/raspisanie/avalible.json";
-var url_grups = "http://raw.githubusercontent.com/Arkuda/Raspisanie/master/avalible.json";
+var url_grups = "https://raw.githubusercontent.com/Arkuda/Raspisanie/master/avalible.json";
 var url_raspisanie = "https://raw.githubusercontent.com/Arkuda/Raspisanie/master/";
 
 
