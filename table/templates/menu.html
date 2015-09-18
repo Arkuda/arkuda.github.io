@@ -1,0 +1,48 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Менюшечка :3</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item menu-close href="#/app/set">
+          Выбор группы
+        </ion-item>
+        <ion-item menu-close href="#/app/raspisanie/pn">
+          Понедельник
+        </ion-item>
+        <ion-item menu-close href="#/app/raspisanie/vt">
+          Вторник
+        </ion-item>
+        <ion-item menu-close href="#/app/raspisanie/sr">
+          Среда
+        </ion-item>
+        <ion-item menu-close href="#/app/raspisanie/cht">
+          Четверг
+        </ion-item>
+        <ion-item menu-close href="#/app/raspisanie/pyat">
+          Пятница
+        </ion-item>
+        <ion-item menu-close href="#/app/raspisanie/sub">
+          Суббота
+        </ion-item>
+        <ion-item menu-close href="#/app/about">
+          О проекте
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

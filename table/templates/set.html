@@ -1,0 +1,21 @@
+<ion-view view-title="Выбор">
+  <ion-content>
+    <div class="list list-inset">
+      <label class="row">
+        <select name="groups" class="col text-center" id="goupselct"  >
+            <option  ng-repeat="group in groups" value="{{group[0]}}">{{group[1]}}</option>
+        </select>
+      </label>
+    </div>
+    <button class="button button-full button-balanced"  onclick="localStorage.setItem('currentGroup',document.getElementById('goupselct').options[document.getElementById('goupselct').selectedIndex].value); localStorage.setItem('firstrun',false) ;alert('Сохранено')">
+      <i class="icon ion-android-done"></i> Сохранить
+    </button>
+    <br/><br/><br/>
+    <div class="card">
+    <div class="col text-center">Нету твоей группы ? Узнай как добавить !</div>
+      <a class="button button-full button-positive" href="#/app/add">
+        <i class="icon ion-archive"></i> Добавить
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

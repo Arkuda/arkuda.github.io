@@ -1,0 +1,66 @@
+<ion-view view-title="{{day}} {{typeWeek}}">
+  <ion-content>
+
+    <div ng-if="day == 'Понедельник'">
+      <div class="card">
+          <h2 class="item item-text-wrap"><b>8.10-9.45</b> {{raps.pn[0].split(';')[0]}} <span class="">{{raps.pn[0].split(';')[1]}}</span></h2>
+          <h2 class="item item-text-wrap"><b>9.55-11.30</b> {{raps.pn[1].split(';')[0]}} <span class="">{{raps.pn[1].split(';')[1]}}</span></h2>
+          <h2 class="item item-text-wrap"><b>11.40-13.15</b> {{raps.pn[2].split(';')[0]}} <span class="">{{raps.pn[2].split(';')[1]}}</span></h2>
+          <h2 class="item item-text-wrap"><b>13.35-15.10</b> {{raps.pn[3].split(';')[0]}} <span class="">{{raps.pn[3].split(';')[1]}}</span></h2>
+          <h2 class="item item-text-wrap"><b>15.20-16.55</b> {{raps.pn[4].split(';')[0]}} <span class="">{{raps.pn[4].split(';')[1]}}</span></h2>
+          <h2 class="item item-text-wrap"><b>17.05-18.40</b> {{raps.pn[5].split(';')[0]}} <span class="">{{raps.pn[5].split(';')[1]}}</span></h2>
+      </div>
+    </div>
+    <div ng-if="day == 'Вторник'">
+      <div class="card">
+        <h2 class="item item-text-wrap"><b>8.10-9.45</b> {{raps.vt[0].split(';')[0]}} <span class="">{{raps.vt[0].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>9.55-11.30</b> {{raps.vt[1].split(';')[0]}} <span class="">{{raps.vt[1].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>11.40-13.15</b> {{raps.vt[2].split(';')[0]}} <span class="">{{raps.vt[2].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>13.35-15.10</b> {{raps.vt[3].split(';')[0]}} <span class="">{{raps.vt[3].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>15.20-16.55</b> {{raps.vt[4].split(';')[0]}} <span class="">{{raps.vt[4].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>17.05-18.40</b> {{raps.vt[5].split(';')[0]}} <span class="">{{raps.vt[5].split(';')[1]}}</span></h2>
+      </div>
+    </div>
+    <div ng-if="day == 'Среда'">
+      <div class="card">
+        <h2 class="item item-text-wrap"><b>8.10-9.45</b> {{raps.sr[0].split(';')[0]}} <span class="">{{raps.sr[0].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>9.55-11.30</b> {{raps.sr[1].split(';')[0]}} <span class="">{{raps.sr[1].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>11.40-13.15</b> {{raps.sr[2].split(';')[0]}} <span class="">{{raps.sr[2].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>13.35-15.10</b> {{raps.sr[3].split(';')[0]}} <span class="">{{raps.sr[3].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>15.20-16.55</b> {{raps.sr[4].split(';')[0]}} <span class="">{{raps.sr[4].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>17.05-18.40</b> {{raps.sr[5].split(';')[0]}} <span class="">{{raps.sr[5].split(';')[1]}}</span></h2>
+      </div>
+    </div>
+    <div ng-if="day == 'Четверг'">
+      <div class="card">
+        <h2 class="item item-text-wrap"><b>8.10-9.45</b> {{raps.cht[0].split(';')[0]}} <span class="">{{raps.cht[0].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>9.55-11.30</b> {{raps.cht[1].split(';')[0]}} <span class="">{{raps.cht[1].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>11.40-13.15</b> {{raps.cht[2].split(';')[0]}} <span class="">{{raps.cht[2].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>13.35-15.10</b> {{raps.cht[3].split(';')[0]}} <span class="">{{raps.cht[3].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>15.20-16.55</b> {{raps.cht[4].split(';')[0]}} <span class="">{{raps.cht[4].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>17.05-18.40</b> {{raps.cht[5].split(';')[0]}} <span class="">{{raps.cht[5].split(';')[1]}}</span></h2>
+      </div>
+    </div>
+    <div ng-if="day == 'Пятница'">
+      <div class="card">
+        <h2 class="item item-text-wrap"><b>8.10-9.45</b> {{raps.pyat[0].split(';')[0]}} <span class="">{{raps.pyat[0].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>9.55-11.30</b> {{raps.pyat[1].split(';')[0]}} <span class="">{{raps.pyat[1].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>11.40-13.15</b> {{raps.pyat[2].split(';')[0]}} <span class="">{{raps.pyat[2].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>13.35-15.10</b> {{raps.pyat[3].split(';')[0]}} <span class="">{{raps.pyat[3].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>15.20-16.55</b> {{raps.pyat[4].split(';')[0]}} <span class="">{{raps.pyat[4].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>17.05-18.40</b> {{raps.pyat[5].split(';')[0]}} <span class="">{{raps.pyat[5].split(';')[1]}}</span></h2>
+      </div>
+    </div>
+    <div ng-if="day == 'Суббота'">
+      <div class="card">
+        <h2 class="item item-text-wrap"><b>8.10-9.45</b> {{raps.sub[0].split(';')[0]}} <span class="">{{raps.sub[0].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>9.55-11.30</b> {{raps.sub[1].split(';')[0]}} <span class="">{{raps.sub[1].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>11.40-13.15</b> {{raps.sub[2].split(';')[0]}} <span class="">{{raps.sub[2].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>13.35-15.10</b> {{raps.sub[3].split(';')[0]}} <span class="">{{raps.sub[3].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>15.20-16.55</b> {{raps.sub[4].split(';')[0]}} <span class="">{{raps.sub[4].split(';')[1]}}</span></h2>
+        <h2 class="item item-text-wrap"><b>17.05-18.40</b> {{raps.sub[5].split(';')[0]}} <span class="">{{raps.sub[5].split(';')[1]}}</span></h2>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

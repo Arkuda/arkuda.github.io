@@ -1,0 +1,19 @@
+<ion-view view-title="Оцените нас :)">
+  <ion-content>
+    <div class="list">
+      <div class="item range range-positive">
+        <i class="icon ion-heart-broken"></i>
+        <input type="range" ng-model="user.rate" name="volume" min="0" max="5" value="5">
+        <i class="icon ion-heart"></i>
+      </div>
+    </div>
+    <div class="item item-input-inset">
+    <label class="item-input-wrapper">
+      <input ng-model="user.ideas" type="text" placeholder="Ваши идеи ?">
+    </label>
+    </div>
+    <button ng-click="update(user)"  class="button button-block button-positive">
+      Отправить
+    </button>
+  </ion-content>
+</ion-view>
