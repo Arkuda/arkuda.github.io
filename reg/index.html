@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+ 	<script type="text/javascript">
+    	function upd () {
+    		var one = document.getElementById('one').value;
+    		var two = document.getElementById('two').value;
+    		var three = document.getElementById('three').value;
+    		var myFirebaseRef = new Firebase("https://poseshaemost.firebaseio.com/");
+    		myFirebaseRef.push({
+   				 	one: one,
+   				 	two: two,
+   				 	three: three,
+   				 	date:  new Date().toString()
+
+			});
+    	}
+    </script> 
+  </head>
+  <body>
+    Отметки.... братишка..... отметки </br>
+    <input id="one">Имя</input></br>
+    <input id="two">Фамилия</input></br>
+    <input id="three">Отчествл</input></br>
+    <button onclick="upd()">Отметиться</button>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
