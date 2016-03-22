@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="keygen">
+<head>
+    <meta charset="UTF-8">
+    <title>Key Generation with Time dependency</title>
+
+</head>
+<body ng-controller="mainctrl">
+    g = {{g}} <br/>
+    p = {{p}} <br/><br/>
+
+<div id="user1"> USER 1<br/>
+    a = {{a}} <br/>
+    A = {{Ab}} <br/>
+    a_sec = {{a_sec}} <br/>
+</div><br/>
+<div id="user2"> USER 2<br/>
+    b = {{b}}<br/>
+    B = {{Bb}}<br/>
+    b_sec = {{b_sec}} <br/>
+</div><br/><br/>
+
+MD5 ( a_sec OR b_sec + TIME  ) = ENCRYPTION KEY <br/><br/>
+MD5 ({{a_sec}} + {{time}} ) = {{key}} <br/><br/><br/>
+
+<input id="message" ng-model="msg"><br/>
+Sign for this message = <span ng-bind="getSign()"></span>
+
+</body>
+<script src="js/angular.js"></script>
+<script src="js/BigInt.js"></script>
+<script src="js/main.js"></script>
+</html>
