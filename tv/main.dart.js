@@ -905,7 +905,7 @@ r^=r>>>11
 return r+((r&16383)<<15)&536870911},
 afA:function afA(){}},B={
 aoj(a,b){var s=new B.a9H(a,b)
-if(b==null)s.b="http://filmixapp.cyou/api/v2/"
+if(b==null)s.b="https://filmixapp.cyou/api/v2/"
 return s},
 a9H:function a9H(a,b){this.a=a
 this.b=b},
